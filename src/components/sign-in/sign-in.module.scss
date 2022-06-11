@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 25px;
+  color: #fff;
+  align-items: center;
+  width: 100%;
+}
+
+.btn_signin {
+  width: 10rem;
+  font-size: 16px;
+  background-color: var(--purple-001);
+  color: #fff;
+  transition: all 0.5 ease;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn_forgot_password {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  color: red;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+.btn_signin_google {
+  cursor: pointer;
+  width: 100%;
+  background-color: #4285f4;
+  border: none;
+  padding: 6px 20px;
+  font-size: 15px;
+  color: #fff;
+  box-shadow: var(--box-shadow-soft);
+}
+
+.input_container {
+  margin-bottom: 3rem;
+}
+.input_container_signup {
+  display: flex;
+  justify-content: space-between;
+}
+.btn_container {
+  display: flex;
+  height: 4.5rem;
+  border-radius: unset;
+  .btn_connect {
+    width: 50%;
+    border-radius: unset;
+    border: none;
+    background-color: var(--purple-002);
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .btn_signup {
+    width: 50%;
+    border-radius: unset;
+    border: none;
+    background-color: var(--purple-002);
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+.activebtn {
+  background-color: var(--purple-001) !important;
+}
+
+.signup_confirm {
+  width: 30%;
+  border-radius: unset;
+  border: none;
+  background-color: var(--purple-002);
+  margin-top: 1rem;
+}
+
+.title {
+  margin-right: 4rem;
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: normal;
+}

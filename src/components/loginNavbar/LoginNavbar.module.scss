@@ -1,0 +1,38 @@
+.container {
+}
+.navigation {
+  display: flex;
+  margin: 5rem auto;
+  padding: 3rem;
+  width: 90%;
+  border-radius: 7px;
+  box-shadow: var(--box-shadow-soft);
+}
+
+.iconsBox {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.btn_disconnect {
+  width: 10rem;
+  color: #fff;
+  background-color: var(--purple-002);
+  border: none;
+  box-shadow: var(--box-shadow-soft);
+  border-radius: 7px;
+  &:hover {
+    transform: translateY(-1px);
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}

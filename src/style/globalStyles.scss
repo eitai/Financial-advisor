@@ -1,0 +1,89 @@
+:root {
+  --purple-001: #6246ea;
+  --purple-002: #8879ec;
+  --red-001: #e45858;
+  --black-001: #777777;
+  --gray-001: #d1d1e9;
+
+  // Box shadow variables
+  --gray-bs-30: rgb(0 0 0 / 30%);
+
+  --box-shadow-hard: 0 5px 20px rgb(0 0 0 / 30%);
+  --box-shadow-soft: 0 1px 6px rgb(0 0 0 / 28%);
+}
+
+.input-width {
+  width: 80%;
+}
+
+.activebtn {
+  background-color: var(--purple-001) !important;
+}
+
+.login-form-wrapper {
+  .MuiFormControl-root {
+    margin-top: -3px;
+  }
+  .MuiInput-root {
+    // border: 1px solid var(--black-001);
+    border-radius: 5px;
+    font-size: 20px;
+    .MuiSelect-select {
+      margin-top: 6px;
+    }
+  }
+  .MuiInput-root:before,
+  .MuiInput-root:hover:not(.Mui-disabled):before {
+    border-bottom: 1px solid var(--purple-002);
+    margin-bottom: 5px;
+  }
+  .MuiInput-root:after {
+    border-bottom: 2px solid var(--purple-001);
+    margin-bottom: 5px;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: var(--black-001);
+    i {
+      color: var(--secondaryColor);
+    }
+  }
+  input {
+    padding: 11px 1px;
+    color: var(--primaryColor);
+    font-size: 16px;
+  }
+  .MuiInputAdornment-root {
+    font-size: 20px;
+  }
+  .MuiFormHelperText-root {
+    text-align: right;
+    color: var(--sectionColor);
+  }
+  .Mui-error {
+    color: var(--sectionColor);
+  }
+
+  .MuiInputLabel-formControl {
+    right: 10px;
+    top: 7px;
+    font-size: 20px;
+    transition: all 0.3s;
+    color: var(--black-001);
+  }
+  .MuiInputLabel-shrink {
+    transform: unset;
+    top: -15px;
+    color: var(--black-001);
+    transform: translate(0, 15px);
+    right: 5px;
+  }
+
+  .MuiTypography-root {
+    font-size: 20px;
+    margin-bottom: -5px;
+  }
+
+  .label + .muirtl-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root {
+    margin-top: 38px;
+  }
+}

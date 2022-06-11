@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: min-content 3fr 1fr;
+  align-content: center;
+  height: 10rem rem;
+}
+.date_container {
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+}
+.date_text {
+  color: var(--purple-001);
+  font-weight: 500;
+}
+.date {
+}
+.input_container {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn_container {
+  display: flex;
+  width: 14rem;
+  justify-content: space-evenly;
+}
+.adornment {
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: #8879ec;
+}
+
+.label {
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: #8879ec;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  transition: all 0.4s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &_save {
+    color: #8879ecc9;
+  }
+  &_add {
+    color: #8879ec;
+  }
+  &_trash {
+    color: #bf4b4bf2;
+  }
+}
